@@ -3,6 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/bing_pic_image"/>
+
     <!--android:scrollbars="none" 隐藏滚动条
         overscrollview 意思是可以让页面上下滚动,never属性 是把上下滚动给禁止了-->
     <ScrollView
